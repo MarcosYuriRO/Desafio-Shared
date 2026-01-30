@@ -1,8 +1,4 @@
-# Desafio Kindred
-
-[Link do Live Share](https://prod.liveshare.vsengsaas.visualstudio.com/join?2E2ABD70FAB72CA834728143E6021B15A493)
-
-# 🐾 Desafio Java: Ecossistema Predator-Prey
+# 🐾 Desafio Java: Kindred
 
 Este projeto é um simulador de ecossistema baseado em console, desenvolvido como um desafio de lógica, Programação Orientada a Objetos (POO) e manipulação de estados em Java.
 
@@ -13,12 +9,11 @@ Criar um mundo dinâmico onde **Ovelhas** e **Lobos** interagem em um tabuleiro,
 
 ## 🛠️ Requisitos Técnicos
 
-* **Linguagem:** Java 17+
+* **Linguagem:** Java 21
 * **Conceitos Chave:** * Herança e Polimorfismo (Classe abstrata `Animal`).
     * Manipulação de Matrizes (Grid bidimensional).
     * Controle de Threads (`Thread.sleep`) para animação.
     * Geração de números aleatórios (`Random`).
-
 ---
 
 ## 📋 As Regras do Jogo
@@ -31,11 +26,11 @@ Criar um mundo dinâmico onde **Ovelhas** e **Lobos** interagem em um tabuleiro,
 Todos os animais se movem para uma casa adjacente (norte, sul, leste, oeste) aleatoriamente a cada turno.
 
 * **🐑 Ovelhas:**
-    * **Reprodução:** Após sobreviver por 3 turnos, o coelho gera um novo coelho em uma posição adjacente livre.
+    * **Reprodução:** Após sobreviver por 3 turnos, o ovelha gera um novo ovelha em uma posição adjacente livre.
     * **Objetivo:** Apenas sobreviver e se multiplicar.
 * **🐺 Lobos:**
     * **Fome:** O lobo começa com um valor de energia. Cada movimento gasta 1 de energia.
-    * **Alimentação:** Se um lobo se mover para uma casa ocupada por um coelho, ele o "come" e recupera sua energia.
+    * **Alimentação:** Se um lobo se mover para uma casa ocupada por um ovelha, ele o "come" e recupera sua energia.
     * **Morte:** Se a energia do lobo chegar a 0, ele morre e é removido do mapa.
 
 ---
@@ -55,9 +50,9 @@ Todos os animais se movem para uma casa adjacente (norte, sul, leste, oeste) ale
 ---
 
 ## 💡 Desafios Extra (Intensidade Máxima)
-1.  **Plantas:** Adicionar um item estático que nasce no mapa e serve de alimento para os coelhos.
+1.  **Plantas:** Adicionar um item estático que nasce no mapa e serve de alimento para os ovelhas.
 2.  **Estatísticas:** Ao final de cada turno, exibir o contador de quantos animais de cada espécie existem.
-3.  **Cores:** Usar códigos ANSI para imprimir os Lobos em vermelho e Coelhos em verde no console.
+3.  **Cores:** Usar códigos ANSI para imprimir os Lobos em vermelho e ovelhas em verde no console.
 
 ---
 
@@ -65,3 +60,6 @@ Todos os animais se movem para uma casa adjacente (norte, sul, leste, oeste) ale
 1. Clone o repositório.
 2. Compile as classes: `javac Main.java`.
 3. Execute: `java Main`.
+
+--- 
+[Link do Live Share](https://prod.liveshare.vsengsaas.visualstudio.com/join?2E2ABD70FAB72CA834728143E6021B15A493)

@@ -1,6 +1,6 @@
 # Desafio Kindred
 
-[Link do Live Share](https://prod.liveshare.vsengsaas.visualstudio.com/join?87DEEAA2995CB1250F6B64FCEAE8381BF8FF)
+[Link do Live Share](https://prod.liveshare.vsengsaas.visualstudio.com/join?2E2ABD70FAB72CA834728143E6021B15A493)
 
 # 🐾 Desafio Java: Ecossistema Predator-Prey
 
